@@ -1,0 +1,14 @@
+-- Activity 1
+-- creating database
+create database vijay_activities;
+commit;
+
+-- creating the table
+create table salesman (
+	salesman_id int,
+    saleman		varchar(20),
+    city		varchar(20),
+    commissiom	int,
+    Primary key(salesman_id));
+   
+    describe salesman;

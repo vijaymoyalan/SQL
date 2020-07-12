@@ -1,0 +1,10 @@
+-- Activity 2    
+-- Inserting the values
+    insert into salesman values (1001,'Vijay Moyalan','Pune',10);
+    insert into salesman values (1002,'Pankaj Tiwary','Lucknow',12);
+    insert into salesman values (1003,'KC',' Mumbai',11);
+    insert into salesman values (1004,'Nilesh N',' Mumbai',11);
+    insert into salesman values (1005,'Amit K',' Mumbai',12);
+ 
+ -- View the table
+    select * from salesman;

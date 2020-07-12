@@ -1,0 +1,7 @@
+-- Activity 3
+    
+    select count(city) from salesman;
+
+	select salesman_id,city from salesman;
+    select * from salesman where city='pune';
+    select salesman_id,commissiom from salesman where saleman='KC';

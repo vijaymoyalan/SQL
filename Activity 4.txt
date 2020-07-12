@@ -1,0 +1,15 @@
+-- ACTIVITY 4
+-- alter command
+	alter table salesman
+    add Product varchar(10);
+    
+-- change the name of table
+ALTER TABLE orders RENAME TO new_orders;
+ALTER TABLE new_orders RENAME TO orders;
+    
+-- delete command
+	alter table salesman
+    drop column commissiom;
+    
+    alter table salesman
+    modify column Product int ;

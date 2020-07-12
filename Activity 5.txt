@@ -1,0 +1,19 @@
+-- Activity 5
+-- update query
+	update salesman set saleman='Update', Product=20 where salesman_id=1002;
+
+-- delete query
+	delete from salesman where saleman='KC';
+    rollback;
+
+
+-- sorting by 2 column.
+select * from salesman order by city desc, saleman desc;
+
+-- distinct
+select distinct(city) from salesman order by city desc ;
+
+-- operator
+select * from salesman where city = 'Pune' ;
+
+select * from salesman where city = 'Pune' and salesman_id='1001' ;
